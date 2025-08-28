@@ -88,7 +88,6 @@ cost2 <- function(r, phat){
 cost2(german_test$response, predict(german_rpart, german_test, type="prob"))
 
 #AUC
-install.packages('ROCR')
 library(ROCR)
 pred_grpart2 <- predict(german_rpart, german_test, type = "prob")
 pred_grpart2
