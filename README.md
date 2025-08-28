@@ -1,6 +1,7 @@
 # Credit-Risk-Model
 
-##Short Summary##
+##Summary##
+
 Developed a decision tree classification model on the UCI German Credit dataset to predict the likelihood of credit default. The model incorporated financial and demographic factors such as account status, credit history, age, and housing. Both in-sample and out-of-sample performance were evaluated using misclassification error, cost-sensitive metrics, and AUC.
 
 ##Tools Used##
